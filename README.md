@@ -8,6 +8,7 @@ writes on FINAL for a production pipeline to import word for word.
 | Show | Skill |
 |---|---|
 | [`gaon_kahani`](gaon_kahani/SKILL.md) | `gaon-kahani-script` |
+| [`naksha_explainer`](naksha_explainer/SKILL.md) | `naksha-writer` |
 | [`parenting`](parenting/SKILL.md) | `bundle-of-cuddles-script` |
 | [`pauranik_kahani`](pauranik_kahani/SKILL.md) | `pauranik-kathayein-script` |
 | [`pravachan`](pravachan/SKILL.md) | `pravachan-writer` |
