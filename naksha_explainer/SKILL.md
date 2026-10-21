@@ -42,6 +42,10 @@ clipped labels. A technical word is said once and explained in plain Hindi.
 source does not carry, nothing that mocks anyone. A disputed line is described as its sources describe it; if the sources
 disagree, say so in one plain sentence or leave the line out and show the countries.
 
+**English on screen** (owner 2026-10-21). The narration is Hindi and the captions show it; everything else on screen is
+English: the title band, the place labels on the map and the number cards. So every `place` cue carries its English name,
+every `stat` cue an English label and unit, and the `title` cue is English.
+
 **India on the map.** The map draws every country from one fixed set of polygons, India in its own official depiction. You
 never ask for a different polygon; you choose what the map focuses on.
 
@@ -171,12 +175,13 @@ heading and nothing after the last section.
 ### title_01
 - Kind: title
 - At: beat_01
-- Text: <three to six Hindi words>
+- Text: <the Short's title band in English, three to six words: "CHICKEN'S NECK: 22 KM">
 
 ### place_01
 - Kind: place
 - Said: beat_01 line 1: <the exact words of that line that name the place>
 - Name: <Hindi name>
+- English: <the place's English name as the map labels it: "Siliguri", "Strait of Hormuz">
 - Iso: <two letters, for a country; else omit>
 - Lat: <decimal, for a point; else omit>
 - Lng: <decimal, for a point; else omit>
@@ -187,8 +192,8 @@ heading and nothing after the last section.
 - Kind: stat
 - Said: beat_04 line 1: <the exact words that say the number>
 - Value: <digits>
-- Unit: <Hindi unit or sign: किमी, %, लाख बैरल>
-- Label: <two to four Hindi words the card shows under the number>
+- Unit: <the unit in English as the card shows it: km, %, crore, lakh barrels>
+- Label: <two to four English words the card shows with the number: "AT ITS NARROWEST">
 - Source: <publication, year; link>
 
 ### date_01
