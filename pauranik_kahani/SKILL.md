@@ -281,7 +281,7 @@ before the first heading and nothing after the last section.
 - Place: <a place key, or a short lowercase English name for a new place>
 - Time: <in English: the time and the light, e.g. "dawn mist, pale grey-blue sky">
 - Present: <cast ids, comma separated; "none" when only the narrator tells it>
-- Props: <name: one line each, separated by semicolons; or "none">
+- Props: <name: one line each, separated by semicolons; or "none">. One object per prop (a garland and a petition are two props); say how it ordinarily looks (a paper folded, a letter in its envelope) and never its state in a story moment (not "lid burst open", "smashed", "scattered in the dust": that belongs in the beat's text), since each prop is drawn once and copied into every shot of the part; a photo or portrait names whose face it shows and at what age
 
 (one part per scene, s01 to s<N>)
 
