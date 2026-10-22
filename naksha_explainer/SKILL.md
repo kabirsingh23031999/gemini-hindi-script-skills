@@ -66,7 +66,14 @@ Every place, number and date the map shows comes from a cue you write; the map t
 
 - **`place`**: every country, city, port, strait, corridor or line the narration names. A country gives its two-letter ISO
   code; a point gives decimal latitude and longitude (four decimals; check them on a map before you write them); a line or
-  a corridor gives two or more points in order. One cue per place, written once even when it recurs.
+  a corridor gives two or more points in order. One cue per place, written once even when it recurs. When the place is
+  one the map already knows by name, give that name as its `Feature` (lowercase, underscores) and the map draws its true
+  shape: an Indian state or union territory (`west_bengal`, `assam`, `ladakh`, `jammu_and_kashmir`, ...); a line (`lac`,
+  `loc`); a range, plateau, plain or delta (`himalayas`, `tibetan_plateau`, `karakoram`, `hindu_kush`, `ganges_plain`,
+  `ganges_delta`, `sundarbans`, `thar_desert`, `deccan_plateau`, `western_ghats`, `eastern_ghats`); a river or a sea
+  (`ganges`, `brahmaputra`, `indus`, `yamuna`, `teesta`, `sutlej`, `narmada`, `godavari`, `krishna`, `bay_of_bengal`,
+  `arabian_sea`, `andaman_sea`, `palk_strait`, `strait_of_malacca`, `strait_of_hormuz`); the corridors (`siliguri_corridor`,
+  `northeast_india`). Still give its Lat and Lng (its middle) for the camera.
 - **`stat`**: every figure said aloud: its value as digits, its unit, and its source. The narration says the number in words;
   the cue carries the digits the card shows.
 - **`date`**: every year the narration names.
@@ -186,6 +193,7 @@ heading and nothing after the last section.
 - Lat: <decimal, for a point; else omit>
 - Lng: <decimal, for a point; else omit>
 - Points: <for a line or a corridor: "lat,lng; lat,lng; ..." in order; else omit>
+- Feature: <the map's name for a known state, line, range, river or sea (see the cues section); else omit>
 - Role: <in English: what it is in the story: the corridor, the rival port, the neighbour>
 
 ### stat_01
