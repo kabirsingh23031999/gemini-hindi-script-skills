@@ -65,7 +65,6 @@ lesson; the episode's own people do. At least one appears in every story.
 | `hariom` | हरिओम (मास्टर जी) | the schoolteacher, reads the papers; explains the rule, the letter, the law | m, adult |
 | `kamla_dadi` | कमला दादी | an old woman everyone's children call dadi; says the hard true thing to a woman alone | f, elder |
 | `banwari` | बनवारी (मुंशी जी) | the kiln's munshi with the ledger; debt and the small cruelty of paperwork | m, adult |
-| `raghu` | रघु | a farmer with four bighas and a tractor loan; the honest man things happen to | m, adult |
 | `bablu` | बबलू | the kasba's cycle-rickshaw man; ferries people; comic relief | m, adult |
 | `mohan` | मोहन | see continuity | m, young |
 | `sunita` | सुनीता | see continuity | f, young |
@@ -77,6 +76,10 @@ stayed, worked at the kiln and learned to read. Guddu is their son, now eleven. 
 Ramdeen's stall every Sunday through those years. Where Mohan's family lives now is open, so do not
 use Mohan, Sunita or Guddu unless the owner asks; a story that needs a young couple or a child
 brings its own.
+
+**Continuity (episode 2, "आँगन की दीवार").** रघु, the farmer of the village, died in that story (a winter
+night at the tube well, a ₹40,000 debt in Banwari's ledger). Never use Raghu again; a story that needs an
+honest farmer brings its own, with a new name. Muliya, Kedar and Panna kaki were that story's own people.
 
 **Rules of the world.** Time passes in seasons and crops, not dates. The chaupal is where things are
 said in front of everyone; the aangan is where they are said in private; a reckoning happens where
