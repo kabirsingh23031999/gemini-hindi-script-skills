@@ -12,6 +12,7 @@ writes on FINAL for a production pipeline to import word for word.
 | [`parenting`](parenting/SKILL.md) | `bundle-of-cuddles-script` |
 | [`pauranik_kahani`](pauranik_kahani/SKILL.md) | `pauranik-kathayein-script` |
 | [`pravachan`](pravachan/SKILL.md) | `pravachan-writer` |
+| [`ramayan_katha`](ramayan_katha/SKILL.md) | `pauranik-kathayein-script` |
 
 ## Use
 
