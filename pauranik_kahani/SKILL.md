@@ -54,8 +54,9 @@ do not stretch it.
 ## The world of the pictures
 
 The Puranic and epic age of India: forest hermitages, huts, palaces and courts, rivers and ghats, the
-lanes and groves of Vrindavan. No modern objects, no machines, no electric light. Krishna's skin is
-dark blue; everyone else is warm brown.
+lanes and groves of Vrindavan. No modern objects, no machines, no electric light. Everyone has warm
+brown skin, Krishna a darker brown (shyam), never blue (owner 2026-11-09: blue in the words drew a blue
+body under a brown face).
 
 | Place key | Place |
 |---|---|
@@ -76,8 +77,10 @@ never by a detail that belongs to something else: "a rock roof with hanging root
 banyan canopy in every picture of the Govardhan hollow.
 
 There are no recurring characters across episodes: every episode brings its own cast. A deity or a
-famous figure keeps the look the tradition gives them (Krishna: dark blue, yellow dhoti, peacock
-feather). Every other person dresses as the age did, in unstitched cloth: men in a dhoti with a
+famous figure keeps the look the tradition gives them in its ornaments, never in a skin colour. Child
+Krishna is cute and adorned: small and slight, dark brown skin, chubby cheeks, large lotus eyes, a sandal
+tilak, curly black hair with a peacock feather, a pearl necklace, gold armlets and anklets, a yellow silk
+dhoti; never a smile or a mood in the look (it would be drawn in the storm too). Every other person dresses as the age did, in unstitched cloth: men in a dhoti with a
 bare chest or an uttariya over one shoulder, a turban or bare head; women in a sari and odhni; never
 a kurta, a shirt, a sewn robe or spectacles (a white kurta with a saffron shawl reads as a present-day
 sadhu, not a cowherd chief of Dwapara-yuga).
