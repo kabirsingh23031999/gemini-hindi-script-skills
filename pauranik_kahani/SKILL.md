@@ -70,10 +70,17 @@ Use a key only when the scene is exactly that kind of place: a sage's ashram in 
 name of its own (`gokul_courtyard`, `govardhan_hollow`, `indra_sabha`, `dwarka_palace`, `ganga_bank`):
 a new place is fine and usually right. Never a library key for a different place: a village is not a
 hermitage, and one king's court is not another's (the pictures draw the library place's words).
+A place made of a vast thing (a lifted mountain, a churned ocean, a god's form) is described by that thing's
+own form (the mountain's slopes, flat peak and cliff seen above the rim, torn earth and boulders beneath),
+never by a detail that belongs to something else: "a rock roof with hanging roots and creepers" drew a
+banyan canopy in every picture of the Govardhan hollow.
 
 There are no recurring characters across episodes: every episode brings its own cast. A deity or a
 famous figure keeps the look the tradition gives them (Krishna: dark blue, yellow dhoti, peacock
-feather).
+feather). Every other person dresses as the age did, in unstitched cloth: men in a dhoti with a
+bare chest or an uttariya over one shoulder, a turban or bare head; women in a sari and odhni; never
+a kurta, a shirt, a sewn robe or spectacles (a white kurta with a saffron shawl reads as a present-day
+sadhu, not a cowherd chief of Dwapara-yuga).
 
 ## Rights
 
