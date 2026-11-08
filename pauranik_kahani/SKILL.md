@@ -65,8 +65,11 @@ dark blue; everyone else is warm brown.
 | `vrindavan_lane` | a lane in Vrindavan |
 | `puja_room` | a home puja room |
 
-Use a key when the scene is there. Any other place gets a short lowercase English name
-(`forest_hut`, `ganga_bank`, `dwarka_palace`): a new place is fine.
+Use a key only when the scene is exactly that kind of place: a sage's ashram in a forest is
+`forest_hermitage`, the Kuru court is `royal_court`. Every other place gets a short lowercase English
+name of its own (`gokul_courtyard`, `govardhan_hollow`, `indra_sabha`, `dwarka_palace`, `ganga_bank`):
+a new place is fine and usually right. Never a library key for a different place: a village is not a
+hermitage, and one king's court is not another's (the pictures draw the library place's words).
 
 There are no recurring characters across episodes: every episode brings its own cast. A deity or a
 famous figure keeps the look the tradition gives them (Krishna: dark blue, yellow dhoti, peacock
@@ -267,7 +270,7 @@ before the first heading and nothing after the last section.
 - Role: <in English: who they are in this story>
 - Recurring: no
 - Voice: <m or f>, <child | young | adult | elder>
-- Look: <in English: what the story requires of the look, the clothes, changes over the story>
+- Look: <in English: what stays all story: age in years, build, face, hair, clothes, jewellery, and changes over the story; never a mood, wetness, fear or a scene's state ("drenched", "trembling", "eyes filled with terror"), since the look is drawn into every picture of the person; a god's attribute by its shape, never by what it is not>
 
 (one block per speaking character)
 
