@@ -55,6 +55,8 @@ a roadways bus, one son in the city that is only ever "शहर". No real place
 | `fields` | the fields at the tube well | work, seasons, the quiet conversations |
 | `village_school` | the school verandah | children, the teacher, what the village says about itself |
 | `city_office` | an office in the city | the one who left; the return as someone else |
+| `mining_checkpost` | the sand-mining checkpost at the river bridge on Manikganj Road | officials, sand contractors, night transport |
+| `kasba_court` | the Manikganj court: its verandah and the inquiry room | legal reckonings |
 
 **Recurring people.** They are the ones who know or the ones who watch. They never learn the
 lesson; the episode's own people do. At least one appears in every story.
