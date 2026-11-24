@@ -1,6 +1,6 @@
 ---
 name: pauranik-kathayein-script
-description: Use when the owner names a mythological or devotional story (from the Mahabharata, the Ramayana, a Purana, the Bhagavata, or the life of a bhakt such as Meera, Raskhan or Narsi Mehta) to tell as a पौराणिक कथाएँ episode, or asks which story to tell next. Researches the canonical telling and its variants, screens whether it can hold 10 to 15 minutes, agrees the version, the outline and the hook with the owner, writes the whole script, and on FINAL writes the intake package (script, metadata, thumbnail lines, Shorts) the production pipeline imports from a Gemini share link without changing a word.
+description: Use when the owner names a mythological or devotional story (from the Mahabharata, the Ramayana, a Purana, the Bhagavata, or the life of a bhakt such as Meera, Raskhan or Narsi Mehta) to tell as a पौराणिक कथाएँ episode, or asks which story to tell next. Researches the canonical telling and its variants, screens whether it can hold 10 to 15 minutes, agrees the version, the outline and the hook with the owner, writes the whole script as a narrator and the characters speaking their own lines, and on FINAL writes the intake package (script, metadata, thumbnail lines, Shorts) the production pipeline imports from a Gemini share link without changing a word.
 ---
 
 # Pauranik kathayein: research and write a mythological story for पौराणिक कथाएँ
@@ -26,10 +26,13 @@ canonical telling first, and every fact in the script has a source.
 ## The channel's story
 
 Every episode is a devotee in a crisis, the trap or trial that tightens, the divine turn (the miracle,
-the decision, the revelation), what it changed, and the lesson lived once and said once at the end. An
-unseen narrator (सूत्रधार) tells it; the characters speak their own lines on screen. The viewers are 18
-to 45, Hindi-speaking, with everyday struggles: fear, trust, scarcity, being unseen. They must hear
-their own feeling in the devotee's.
+the decision, the revelation), what it changed, and the lesson lived once and said once at the end.
+An unseen narrator (सूत्रधार) tells it over fast-cut 3D CGI stills (a new picture every three to five
+seconds; about three in four are short video clips), and **the characters speak their own lines, each in a voice
+of their own** (a woman's, a king's, an old sage's): the narrator never speaks for them. Only the narrator uses
+TTS; every character's line is voiced natively by the video model inside its own video clip (either on camera with
+the lips in sync, or off-camera over a scene or silent listener as the director chooses). The viewers are 18 to 45, Hindi-speaking, with everyday struggles: fear,
+trust, scarcity, being unseen. They must hear their own feeling in the devotee's.
 
 **Register.** Devotional and warm, the Puranic and epic age told with dignity, never preachy and never
 a lecture on religion. The human devotee carries the feeling; a deity or sage speaks little and
@@ -43,20 +46,41 @@ never blends two into a third. Colour may be added (what a room smelled like, ho
 events may not. Legend that the sources only report as legend is told as tradition ("कहा जाता है
 कि", "लोक-कथा के अनुसार"), never as history.
 
-**Length comes from the story.** Ten to fifteen minutes is the aim, but clarity and feeling always
-come before the count. The minutes come from facts, never from padding: the background that makes
-the story weigh (why Durvasa's anger was feared, what the vessel was and who gave it), the people's
-reasons and fears, the ordinary detail that makes the miracle real, the reactions of those not at the
-centre, and what the story meant to those who kept telling it. Every scene must answer: what does the
-viewer learn or feel here that they did not before? If the story honestly holds eight minutes, say so;
-do not stretch it.
+**Length comes from the story.** Ten to fifteen minutes is the aim (about 1,600 to 2,400 spoken words),
+but clarity and feeling always come before the count. The minutes come from facts, never from padding: the
+background that makes the story weigh (why Durvasa's anger was feared, what the vessel was and who gave it),
+the people's reasons and fears, the ordinary detail that makes the miracle real, the reactions of those not
+at the centre, and what the story meant to those who kept telling it. Every scene must answer: what does the
+viewer learn or feel here that they did not before? If the story honestly holds eight minutes, say so; do not
+stretch it.
 
 ## The world of the pictures
 
 The Puranic and epic age of India: forest hermitages, huts, palaces and courts, rivers and ghats, the
-lanes and groves of Vrindavan. No modern objects, no machines, no electric light. Everyone has warm
-brown skin, Krishna a darker brown (shyam), never blue (owner 2026-11-09: blue in the words drew a blue
-body under a brown face).
+lanes and groves of Vrindavan. No modern objects, no machines, no electric light. The pictures are grand,
+near-photographic 3D CGI in the manner of a big-budget mythological film; the look is the pipeline's, so the
+cast lines below only say who each person is.
+
+**People (owner decisions, 2026-11).** Everyone is beautiful or handsome, like the cast of a big-budget epic.
+- **Women** are beautiful, fair, sensual, tall and slender with long legs: say `strikingly beautiful and
+  sensual, fair glowing skin, tall and slender with long legs`. Their colour is their own only when it is
+  their identity (Kali Ma is dark). **Draupadi stays fair.** Never write "curvy", "hourglass", "full hips" or
+  "voluptuous": the picture model then draws the lower half heavy. Say the fitted blouse and the sari draped
+  close to the figure instead.
+- **Men** are tall and strong with warm brown skin, a handsome face, a neat or full beard as the person has it.
+- **Krishna is never blue.** Give him the natural warm brown skin of the people of his age, a handsome face,
+  and the age the story needs: a small boy in Gokul and Vrindavan (small and slight, chubby cheeks, large lotus
+  eyes), a youth in Mathura, a king in Dwarka. His signs are the tradition's ornaments: a peacock feather in
+  curly black hair, a flute, a yellow silk dhoti, a pearl necklace, gold armlets. Never write the word blue (or
+  "dark blue", "cloud-coloured") anywhere in his lines: the picture model draws a blue body under it.
+- **Gods and sages** are people of a natural skin colour with the tradition's ornaments, shown with dignity.
+  An attribute that never leaves them is named by its shape: Indra's vajra is "a short golden vajra shaped like a
+  dumbbell, held at its middle"; Shiva's trident; Krishna's flute. Never say what an attribute is not (the model
+  draws every object a look names, negated or not). Nobody else gets a weapon in their look.
+- **Clothes of the age, in unstitched cloth.** Men: a dhoti with a bare chest or an uttariya over one shoulder, a
+  turban or bare head. Women: a sari with a fitted blouse and an odhni. Kings and gods: jewelled armour or an
+  ornate upper garment named as such. Never a kurta, a shirt, a sewn robe or spectacles (a white kurta with a
+  saffron shawl reads as a present-day sadhu).
 
 | Place key | Place |
 |---|---|
@@ -73,17 +97,9 @@ a new place is fine and usually right. Never a library key for a different place
 hermitage, and one king's court is not another's (the pictures draw the library place's words).
 A place made of a vast thing (a lifted mountain, a churned ocean, a god's form) is described by that thing's
 own form (the mountain's slopes, flat peak and cliff seen above the rim, torn earth and boulders beneath),
-never by a detail that belongs to something else: "a rock roof with hanging roots and creepers" drew a
-banyan canopy in every picture of the Govardhan hollow.
+never by a detail that belongs to something else.
 
-There are no recurring characters across episodes: every episode brings its own cast. A deity or a
-famous figure keeps the look the tradition gives them in its ornaments, never in a skin colour. Child
-Krishna is cute and adorned: small and slight, dark brown skin, chubby cheeks, large lotus eyes, a sandal
-tilak, curly black hair with a peacock feather, a pearl necklace, gold armlets and anklets, a yellow silk
-dhoti; never a smile or a mood in the look (it would be drawn in the storm too). Every other person dresses as the age did, in unstitched cloth: men in a dhoti with a
-bare chest or an uttariya over one shoulder, a turban or bare head; women in a sari and odhni; never
-a kurta, a shirt, a sewn robe or spectacles (a white kurta with a saffron shawl reads as a present-day
-sadhu, not a cowherd chief of Dwapara-yuga).
+There are no recurring characters across episodes: every episode brings its own cast.
 
 ## Rights
 
@@ -194,30 +210,65 @@ writing the **whole package again**; the pipeline reads only your last answer.
 **Scenes.** One beat per scene. A scene runs as long as its moment needs; most land between one and
 two minutes.
 
-**Narrator lines.** One to three sentences each. Short sentences read best aloud; a longer one is fine
-when it is clear on first hearing. The first line of beat_01 carries the hook. The narrator carries
-description and reported speech.
+**Narrator lines.** One to three short sentences each (about 8 to 12 words a sentence), concrete, so that every
+three to five seconds a new picture can land on the operative word (a person, an object, an action). A longer
+sentence is fine only when it is clear on first hearing. The first line of beat_01 carries the hook and starts
+*in media res*, on the crisis. The narrator carries description, time and reported speech ("उसने कहा कि..."), never
+a character's own words.
 
-**Character lines.** Spoken, one thought each, the way people talk. Each character line becomes one
-video clip of that person speaking, about twelve seconds at most, so a longer speech is two or three
-lines of the same speaker in a row (with or without a narrator line between). If a line runs long, the
-pipeline plays it as two clips at a sentence end or a comma with the same words; so never write one
-unbroken sentence longer than about thirty words. Plain Hindi; a Sanskrit word the story needs (a
-name, a mantra, a verse the source quotes) is said once and followed by its meaning in plain Hindi. No
-English sentences.
+**Character lines (the characters speak for themselves).** What a character says is its own line, with that
+character as the speaker, written `- <cast_id> (<direction>): <Devanagari words>`. Spoken, one thought each, the
+way people talk, plain Hindi. A character line is voiced natively by its own video clip (never TTS), so:
+- Keep it short, about twelve words (five seconds) at most: a line must fit cleanly inside one video clip,
+  and a line over about twenty words (eight seconds) is split by the pipeline at a sentence end, so write a longer
+  speech as two or three lines of the same speaker in a row (a narrator line between them is fine).
+- The **direction** is English, 3 to 15 words, saying how it is said ("trembling, pleading, barely above a
+  whisper"). It is how the voice acts the line, so it is about the voice, never about a picture.
+- A line carries no stage business and no sound tag: a gasp, a laugh, a conch, thunder or a crowd belongs in the
+  narrator's line before or after, or in the scene's `Goal`.
+- A deity or sage speaks little and plainly. A crowd, a distant figure or a villain with one line is narrated, not
+  cast. A Sanskrit word the story needs (a name, a mantra, a verse the source quotes) is said once and followed by
+  its meaning in plain Hindi; a verse ends in one full stop, never a double danda.
+- Two characters in a row are a conversation: each reply is its own line. The pipeline puts a turn-length silence
+  at every change of speaker, so never write the other's name into a line just to mark who speaks.
 
-**Speakers.** The narrator plus three to six characters, each a different voice (gender, age,
-temperament) so casting can tell them apart. The deity or sage speaks little. A crowd, a distant figure
-or a villain with one line is narrated, not cast.
+**Speakers.** The narrator plus up to six speaking characters, each different enough to tell apart by voice
+(gender, age, temperament). Each speaking character has a `Voice` line in the Cast.
 
-**Language.** Plain sentences a listener understands the first time: no aphorisms, no compressed
-images, no phrase to decode. Do not repeat one sentence across scenes.
+**Beats.** The narrator's silences have an order, and the pipeline sets them from the text, so write plain
+punctuation and let it: a full stop is a short pause, a sentence of ten words or more a longer one, the end of a
+line (each `- narrator:` line is one) longer still, and the change of scene the longest. Where a sentence needs a
+real silence after it (a reveal, a blow, a question left hanging, the instant before the miracle), write
+`[beat]` right after that sentence's full stop: `वो पात्र खाली था। [beat] द्रौपदी ने आँखें बंद कर लीं।`
+`[beat]` is the one bracket the script has, and it is for **narrator lines only** (the pipeline refuses it in a
+character's line). It follows a full stop, a question mark or an exclamation mark, and it is the longest pause
+inside a scene, so use it sparingly: at most one in five sentences, never two close together, never on every line,
+or it marks nothing. A silence after a character's line is the narrator's `[beat]` on the next line, or the turn
+pause the pipeline puts at every change of speaker. Everything else in brackets (pause tags, stage directions,
+sounds) is refused.
 
-**Direction.** Each character line has a direction in English, 3 to 15 words, saying how it is said
-("trembling, pleading, barely above a whisper"). When the speaker's own laugh, gasp or sigh is part of
-the moment, add one sound before or after the words: laugh, giggle, chuckle, gasp, sigh, sob, breath or
-pause, 0.3 to 2.0 seconds, at most two per line, never in the middle of the words. A sound that is not
-the speaker's (a conch, thunder, a crowd) goes in the scene's Goal, not in a line.
+**Cast.** Name every character who appears or speaks, 3 to 7 in all, each with their look as separate lines
+(`Age`, `Build`, `Skin`, `Face`, `Hair`, `Clothes`, `More`) so the pipeline draws each one's reference picture and
+keeps faces and outfits consistent across fast cuts. Give each line only what can be seen, in plain English, and
+follow **The world of the pictures** above: every woman's Skin says fair and her Build says tall and slender with
+long legs; every man's Skin says warm brown; Krishna's Skin is a natural warm brown and his Age is the age of the
+scene (if he is a boy in one scene and a king in another, give the later ages as ranged lines). Make the leads
+beautiful or handsome with concrete features: `strikingly beautiful and sensual, large kohl-lined almond eyes, full
+red lips, long glossy black hair braided with jasmine, gold jhumkas`. Never a mood, wetness, fear or a scene's state
+("drenched", "trembling", "eyes filled with terror"): the look is drawn into every picture of the person. When
+someone's clothes or state change during the story, add the same lines with the scenes, only for what changes:
+`Clothes (s08-s11): ...`. A god's attribute is named by its shape, never by what it is not. A person who only
+appears in one line, or a crowd, is narrated, not cast.
+
+**Voice (a character who speaks).** Every character who has a line also has `Voice: <m|f>, <age>` in the Cast, with
+the age one of `child`, `young`, `adult` or `elder`, and may add a concise English vocal timbre description either
+inline (`Voice: m, elder, deep resonant grave voice`, `Voice: f, adult, firm warm royal voice`,
+`Voice: m, child, bright innocent boyish voice`) or on a separate `Voice desc:` line. The video model uses this
+description as prompt-driven vocal guidance when generating that character's dialogue clips (there is no TTS
+casting for characters). The narrator has no `Voice` line; a character who never speaks needs none.
+
+**Language.** Plain sentences a listener understands the first time: no aphorisms, no compressed images, no
+phrase to decode. Do not repeat one sentence across scenes. No English sentences.
 
 **Chapters.** Six to eight chapters in all, one every one or two scenes, the first at scene 1. A short
 Hindi title each ("द्रौपदी का संकट", "एक सूखा पत्ता").
@@ -228,14 +279,15 @@ nothing else under it), or `calm` (setting-up, reflection).
 
 ## The rules the pipeline enforces
 
-The pipeline refuses a package that breaks these, so check every spoken line before you send:
+The pipeline refuses a package that breaks these, so check every line before you send:
 1. **Every spoken line is Devanagari only.** No Latin letters. Numbers as words (दस हज़ार, बारह साल,
    सन् सोलह सौ अट्ठाईस), never digits: the voice misreads them and the subtitles drift.
 2. **Only full stops, commas, question marks, exclamation marks and colons** in spoken lines: no
-   ellipses, no dashes, no quotation marks, no brackets, no pause tags, no emojis. A hyphen inside a
-   doubled word (पीछे-पीछे) is fine.
-3. **Every speaker in the Script has a block under Cast**, with its exact cast id; ids are lowercase
-   Latin letters, digits and underscores (draupadi, krishna, durvasa).
+   ellipses, no dashes, no quotation marks, no brackets (except `[beat]` after a sentence's end in a narrator line),
+   no pause tags, no emojis, no stage directions inside a line. A hyphen inside a doubled word (पीछे-पीछे) is fine.
+3. **Every line is `narrator` or a cast id.** Every character who appears in a scene's `Present` or speaks a line
+   has a block under `Cast`, with its exact cast id (lowercase Latin letters, digits and underscores: draupadi,
+   krishna, durvasa), and every speaker has a `Voice: <m|f>, <age>` line there.
 4. **Every scene has one part and one beat with the same number**, and every beat names its part.
 5. **The layout below exactly**: the headings, the labels and the line forms.
 
@@ -250,7 +302,7 @@ before the first heading and nothing after the last section.
 # INTAKE PACKAGE: Pauranik Kathayein
 
 ## Episode
-- Title: <the YouTube title: "<hook> | <story name> | Pauranik Katha">
+- Title: <the YouTube title: "<hook> | <story name> | Pauranik Katha", Devanagari except the last words, see Title>
 - Story name: <short plain Hindi name of the story, e.g. द्रौपदी का अक्षय पात्र>
 - Source: <the canonical telling: text, parva/kanda/skandha and adhyaya; the translation read, with its link>
 - Version: <which telling the script follows, and the variant it does not>
@@ -262,7 +314,7 @@ before the first heading and nothing after the last section.
 - version: <the telling chosen and why>
 - emphasis: <what the telling stresses: the fear, the trap, the divine play>
 - legend: <none, or what is legend and how it is told as tradition>
-- speakers: <narrator plus the cast ids>
+- speakers: narrator plus the speaking cast ids
 - cta: No spoken CTA; the close is the lesson
 - <one line per question the owner answered: id: answer>
 
@@ -277,12 +329,22 @@ before the first heading and nothing after the last section.
 
 ### <cast_id>
 - Name: <Hindi name>
+- Name (en): <the name in English letters, e.g. Draupadi>
+- Label: <in English, a few words a viewer could see: the queen of the Pandavas, the sage with a staff>
 - Role: <in English: who they are in this story>
 - Recurring: no
-- Voice: <m or f>, <child | young | adult | elder>
-- Look: <in English: what stays all story: age in years, build, face, hair, clothes, jewellery, and changes over the story; never a mood, wetness, fear or a scene's state ("drenched", "trembling", "eyes filled with terror"), since the look is drawn into every picture of the person; a god's attribute by its shape, never by what it is not>
+- Voice: <m or f>, <child | young | adult | elder>[, <short English vocal timbre cue>]   (only a character who speaks)
+- Voice desc: <optional short English vocal timbre cue if not given inline on Voice>
+- Age: <the age at the start, one number>
+- Build: <body and height>
+- Skin: <skin tone>
+- Face: <features and beauty, beard>
+- Hair: <hair>
+- Clothes: <the clothes at the start, jewellery, the crown, what they always carry>
+- More: <anything else to see, a god's attribute by its shape; or leave the line out>
+- Clothes (sNN-sNN): <only when the clothes change: the clothes for those scenes; the same for `Age`, `Face`, `Build`, `Hair` when those change>
 
-(one block per speaking character)
+(one block per visible character)
 
 ## Parts
 
@@ -301,13 +363,14 @@ before the first heading and nothing after the last section.
 ## Script
 
 ### beat_01 | s01_<english_slug>
-- narrator [hook]: <Devanagari>
-- narrator: <Devanagari>
-- <cast_id> (<direction>): <Devanagari>
-- <cast_id> (<direction>) [sigh 0.8 before]: <Devanagari>
+- narrator [hook]: <Devanagari, short visual sentence>
+- narrator: <Devanagari, short visual sentence>
+- narrator: <Devanagari sentence>। [beat] <Devanagari>
+- <cast_id> (<direction in English, 3 to 15 words>): <the character's words in Devanagari>
+- <cast_id> (<direction>): <the reply>
 - narrator: <the closing open-loop line>
 
-(one beat per scene, beat_01 to beat_<N>; the last line of the last beat is the narrator's close with the lesson)
+(one beat per scene, beat_01 to beat_<N>; each line is the narrator's or one cast id's; the last line of the last beat is the narrator's close with the lesson)
 
 ## Hook
 - Chosen: <the hook sentences>
@@ -317,7 +380,7 @@ before the first heading and nothing after the last section.
 
 ## Metadata
 - Title: <the same title as under Episode>
-- Description: <Hindi, three short paragraphs on one line each: the setup in two or three sentences; the lesson's line; where the story is told (the parva or purana)>
+- Description: <the channel's language, three short paragraphs on one line each: the setup in two or three sentences; the lesson's line; where the story is told (the parva or purana)>
 - Tags: <comma separated: the story's names, places and themes in Hindi and in Latin letters>
 
 ## Thumbnail
@@ -333,18 +396,28 @@ before the first heading and nothing after the last section.
 - Headline: <the Short's hook in Hindi, at most six words>
 - Title: <"<headline> | <story name>">
 
-(three Shorts, each one scene's turn: the miracle, the trap's closing line, the prayer; 3 to 6 character lines and under a minute from the start line to the scene's end)
+(three Shorts, each one scene's turn: the miracle, the trap's closing line, the prayer; 3 to 6 lines and under a minute from the start line to the scene's end; the best start is a character's own line that needs no context)
 
 ## Review notes
 - beat_03 <cast_id or narrator>: <a legend line, a version choice, or what the owner should check>
 - (one line per flagged line, or "none")
 ```
 
+**Title.** The hook in the viewer's words, then the story's name, then `Pauranik Katha`, separated by pipes, within
+YouTube's 100 characters; the hook and the name in Devanagari. The channel's metadata language decides the
+language of the title, description and tags (today Hindi in Devanagari); if the owner says otherwise, follow the
+owner.
+
 Before you send the package, check it against **The rules the pipeline enforces** above, line by line,
 and also:
 - The first narrator line carries [hook], names the devotee, and is the chosen hook; every beat ends
   on a narrator line.
+- Every speaker id in the Script has a Cast block with a `Voice` line; no character's words sit inside a narrator
+  line; no `[beat]` sits in a character's line.
 - Six to eight parts start a chapter; s01 starts one.
+- Every `[beat]` follows a sentence end; there are few of them and none are adjacent.
+- Every woman in the Cast is fair, tall and slender with long legs (unless her colour is her identity); Krishna's
+  lines say no blue; no cast line says curvy, hourglass or full hips.
 - Every event in the script is in Research; nothing tagged LORE is told as history; no miracle, boon or
   verse is invented.
 - The lesson is said once, by the narrator, at the close.

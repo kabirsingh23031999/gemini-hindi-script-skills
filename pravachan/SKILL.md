@@ -9,7 +9,7 @@ description: Use when the owner names a question of life (anger, fear, attachmen
 1. Call the skill and name a question or a teaching ("गुस्से पर स्वामी विवेकानंद", "चाणक्य: दोस्त की परख"), paste notes or a half-written script, or ask for suggestions. In a conversation that already has the research or a draft, just call the skill there: it picks up where the work is.
 2. Answer the questions after the research. Approve the outline. Pick a hook. Read the script and the keywords.
 3. Type FINAL. Ask for fixes; each fix rewrites the whole package.
-4. Share the chat with the production team and say which channel the episode is for (Motivation Unlimited or Vairagi). The pipeline imports only the last answer.
+4. Share the chat with the production team and say which channel the episode is for (Pauranik Katha TV or Vairagi). The pipeline imports only the last answer.
 
 Talk to the owner in simple Hindi (Devanagari), short messages, numbered options when there is a choice. The script itself
 follows the rules below.
@@ -194,7 +194,7 @@ heading and nothing after the last section.
 - Title: <the YouTube title: "<hook> | <philosopher> | Pravachan">
 - Topic: <the question, in plain Hindi>
 - Philosopher: vivekananda | chanakya
-- Channel: motivation_unlimited | vairagi
+- Channel: pauranik_katha_tv | vairagi
 - Lesson: <one Hindi line, the teaching said once>
 - Estimated minutes: <words ÷ 149, one decimal>
 
